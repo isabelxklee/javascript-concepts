@@ -1,0 +1,52 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  background: #f2d3c2;
+  color: #101a71;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  padding: 100px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 8vw;
+  line-height: 1;
+  margin: 0;
+}
+
+h2 {
+  font-size: 6vw;
+}
+
+p {
+  font-size: 24px;
+}
+
+.wilson {
+  width: 50px;
+  margin: 20px;
+}
+
+section {
+  background: #101a71;
+  color: #f2d3c2;
+  text-align: left;
+  padding: 100px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 18px;
+  line-height: 1.6;
+  text-indent: -30px;
+}
+
+li::before {
+  content: "🌟 ";
+}
